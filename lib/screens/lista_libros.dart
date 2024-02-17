@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter_equipos_futbol/core/utils/equipos_read_file.dart';
-//import 'package:flutter_equipos_futbol/presentation/pages/home_page/widgets/items_equipos.dart';
+import 'package:examen_primero_miguelcruz/models/lectura_libros.dart';
+import 'package:examen_primero_miguelcruz/screens/items_libros.dart';
 
-/*Widget libreria() {
+Widget libreria() {
   return FutureBuilder(
-    future: equiposReadFile.getEquipos(), 
+    future: libroslecturaarch.getlibros(), 
     builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
       if (snapshot.hasData) {
         return ListView(
@@ -14,4 +14,5 @@ import 'package:flutter/material.dart';
         return const CircularProgressIndicator();
       }
     }
-  );*/
+  );
+}

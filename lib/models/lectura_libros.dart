@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:examen_primero_miguelcruz/models/libros.dart';
 
 //Estructura de la clase
-class _libroslecturaarch{
+class _LibrosLecturaArch {
   Future<List<Libros>> getlibros() async {
     final dataAssetBundle = await rootBundle.loadString('database/libros.json');
     List<dynamic> equiposListJson = convert.jsonDecode(dataAssetBundle);
@@ -11,4 +11,4 @@ class _libroslecturaarch{
   }
 }
 
-final libroslecturaarch = _libroslecturaarch();
+final libroslecturaarch = _LibrosLecturaArch();
