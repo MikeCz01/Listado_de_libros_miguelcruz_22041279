@@ -6,8 +6,8 @@ import 'package:examen_primero_miguelcruz/models/libros.dart';
 class _LibrosLecturaArch {
   Future<List<Libros>> getlibros() async {
     final dataAssetBundle = await rootBundle.loadString('database/libros.json');
-    List<dynamic> equiposListJson = convert.jsonDecode(dataAssetBundle);
-    return equiposListJson.map((e) => Libros.fromJson(e)).toList();
+    List<dynamic> librosListJson = convert.jsonDecode(dataAssetBundle);
+    return librosListJson.map((e) => Libros.fromJson(e)).toList();
   }
 }
 
