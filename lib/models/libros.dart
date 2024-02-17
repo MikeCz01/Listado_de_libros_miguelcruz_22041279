@@ -30,14 +30,14 @@ class Libros {
   
   factory Libros.fromJson(Map<String, dynamic> json) => Libros(
     id: json["id"],
-    year: json["year"],
-    title: json["title"],
+    year: json["Year"],
+    title: json["Title"],
     handle: json["handle"],
-    publisher: json["publisher"],
-    isbn: json["isbn"],
-    pages: json["pages"],
-    notes: json["notes"],
-    created: json["created"],
+    publisher: json["Publisher"],
+    isbn: json["ISBN"],
+    pages: json["Pages"],
+    notes: json["Notes"],
+    created: json["created_at"],
     villians: json["villians"],
   );
 

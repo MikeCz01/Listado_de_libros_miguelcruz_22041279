@@ -4,15 +4,12 @@ List<Widget> listItems(List<dynamic>? data, BuildContext context) {
   List<Widget> listItems = [];
 
   data?.forEach((element) { 
-      final country=element.country.toString().split('.').last.toUpperCase();
+      final publisher=element.publisher.toString().split('.').last.toUpperCase();
     listItems.add(
       ListTile(
-        leading: Image.network(element.logo),
-        title: Text(element.name),
-        subtitle: Text(country),
+        title: Text(element.Title),
+        subtitle: Text(publisher),
         onTap: () {
-          print('Tapped');
-          //Navegacion a una pantalle del equipo .....  equipo/:id
         },
       )
     );
