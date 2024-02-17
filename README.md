@@ -1,16 +1,11 @@
 # examen_primero_miguelcruz
 
-A new Flutter project.
+La siguiente aplicación permite al usuario obtener una lista de libros de Stephen King.
+Para ejecutar la aplicación se debe hacer uso de un emulador o dispositivo movil para correr el codigo de la aplicación
+Dentro de este se puede apreciar un estilo de estructura CLEAN haciendo uso de las carpetas.
+Se trabajó con la implementación del go route y widgets.
 
-## Getting Started
+Tomar en consideración lo siguiente.
+Versión de Flutter: Asegúrese de utilizar una versión estable y actualizada de Flutter para evitar problemas de compatibilidad con paquetes y funcionalidades ya que algunas fueron actualizados a su ultima versión.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Documentación: Consulte la documentación oficial de Flutter y los paquetes utilizados para obtener ayuda y orientación sobre cómo implementar características específicas y hacer un buen uso de los mismos paquetes.
